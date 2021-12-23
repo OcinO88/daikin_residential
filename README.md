@@ -5,7 +5,8 @@ Cloud control of Daikin devices that are supported by Daikin Residential Control
 
 Copy the daikin_residential folder and all of its contents into your Home Assistant's custom_components folder. This is often located inside of your /config folder. If you are running Hass.io, use SAMBA to copy the folder over. If you are running Home Assistant Supervised, the custom_components folder might be located at /usr/share/hassio/homeassistant. It is possible that your custom_components folder does not exist. If that is the case, create the folder in the proper location, and then copy the daikin_residential folder and all of its contents inside the newly created custom_components folder.
 
-Alternatively, you can install daikin_residential through HACS by adding this repository.
+Alternatively, you can install daikin_residential through HACS by adding this repository. To do this:
+Open "HACS" section then "Integrations" and click on three points menu at top right. Click on "Custom reporitories" and add repository "https://github.com/rospogrigio/daikin_residential" with category "Integration". This will copy the "daikin_residential" folder into "custom_components" folder of Home Assistant. Make sure to restart Home Assistant, then go to "Using config flow" chapter.
 
 # Usage:
 
